@@ -1,6 +1,6 @@
 # Instaloader with Tor Proxy
 
-Simple PoC
+Simple PoC X
 
 ```bash
 docker-compose up -d
