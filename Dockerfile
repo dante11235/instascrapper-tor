@@ -16,5 +16,6 @@ RUN set -ex \
     && rm -rf /var/lib/apt/lists/* /var/log/* /usr/share/man /usr/share/doc
 
 COPY . /app
+RUN mkdir /data
 
 CMD ["python3","main.py"]
